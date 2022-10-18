@@ -12,6 +12,11 @@ jobs:
     steps:
       - name: Where am I running?
         run: uname
+  mac-job:
+    runs-on: macos-12 
+    steps:
+      - name: Where am I running?
+        run: uname
 
   # TODO: Add a job for macOS
   #
